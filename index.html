@@ -10,14 +10,14 @@
 	<table>
 		
   	<tr>
-	  {% for colunas in turma.colunas %}
+	  {% for coluna in turma.colunas %}
 	  	<th>{{coluna}}</th> 
 	  {% endfor %}
 		</tr>
-   {% for colunas in turma.linhas %}
+   {% for linha in turma.linhas %}
 	 <tr>
 		 <td>{{linha.horario}}</td>
-		 {% for colunas in linha.aulas %}
+		 {% for aula in linha.aulas %}
 		 <td>{{aula.disciplina,}}<br/>{{aula.professor}}</td>
 		 {% endfor %}
 		</tr>
