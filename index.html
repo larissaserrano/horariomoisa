@@ -15,7 +15,7 @@
    {% for colunas in turma.linhas %}
 	 <tr>
 		 <td>{{linha.horario}}</td>
-		 {% for colunas in turma.aulas %}
+		 {% for colunas in linha.aulas %}
 		 <td>{{aula.disciplina,}}<br/>{{aula.professor}}</td>
 		 {% endfor %}
 		</tr>
