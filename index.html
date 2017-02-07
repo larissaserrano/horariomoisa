@@ -1,5 +1,8 @@
 ---
 ---
+
+ <!-- {{ site.data.horarios }} -->
+
 {% for curso in site.data.json.cursos %}
 	<h1>curso.nome</h1>    
 {
@@ -9,6 +12,3 @@
     }
     {% unless forloop.last %},{% endunless %}
   {% endfor %}
- <!-- {{ site.data.horarios }} -->
-
-
