@@ -1,15 +1,11 @@
 ---
 ---
 
-  {{ site.data.horarios }} 
-
 {% for curso in site.data.horarios.cursos %}
 	<h1>{{curso.nome}}</h1>    
 
 {% for turmas in curso.turmas %}
-	<h2>{{turma.nome}}</h2>    
+	<h2>{{turma.nome}}</h2>   
 
-      
-    
-   
+  {% endfor %}
   {% endfor %}
