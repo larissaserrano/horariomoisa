@@ -20,7 +20,7 @@ thead tr:hover {
   color: inherit;
 }
 tr:nth-child(even) {
-    background-color: #edf5ff;
+    background-color: #008000;
 }
 th {
   font-weight: normal;
