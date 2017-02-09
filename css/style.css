@@ -12,8 +12,8 @@ thead {
   border-bottom: 1px solid #a5a5a5;
 }
 tr:hover {
-  background-color:#3d80df;
-  color: #fff;
+  background-color:#006400;
+  color: #000000;
 }
 thead tr:hover {
   background-color: transparent;
