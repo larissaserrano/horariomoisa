@@ -17,6 +17,7 @@ table {
   border-collapse: collapse;
   width: 50em;
   border: 1px solid #666;
+  margin-right:auto; margin-left:auto;
 }
 thead {
   background: #ccc url(http://www.devfuria.com.br/html-css/tabelas/bar.gif) repeat-x left center;
