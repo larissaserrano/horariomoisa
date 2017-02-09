@@ -34,6 +34,7 @@ thead {
   border-bottom: 2px solid #a5a5a5;
 }
 tr:hover {
+  text-align: center;
   background-color:#6ece58;
   color: #000000;
 }
