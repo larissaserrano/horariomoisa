@@ -26,7 +26,7 @@ table {
   border-collapse: collapse;
   width: 160em;
   border: 0px solid #666;
-  
+  font-family:  Candara;
 }
 thead {
   background: #ccc url(http://www.devfuria.com.br/html-css/tabelas/bar.gif) repeat-x left center;
