@@ -32,7 +32,7 @@ thead tr:hover {
   color: inherit;
 }
 tr:nth-child(even) {
-    background-color: #edffee;
+    background-color: #28af31;
 }
 th {
   font-weight: normal;
