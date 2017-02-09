@@ -41,14 +41,17 @@ thead {
 }
 tr:hover {
   text-align: center;
+  text-align: center;
   background-color:#6ece58;
   color: #000000;
 }
 thead tr:hover {
+  text-align: center;
   background-color: transparent;
   color: inherit;
 }
 tr:nth-child(even) {
+  text-align: center;
     background-color: #e5f1d6;
 }
 th {
