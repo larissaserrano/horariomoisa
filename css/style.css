@@ -3,9 +3,15 @@ body {
 }
 h1{
   font-size: 25px;
+  font-family: arial;
 }
 h2{
   font-size: 18px;
+  font-family: arial;
+}
+h3{
+  font-family: arial;
+   font-size: 15px;
 }
 table {
   border-collapse: collapse;
