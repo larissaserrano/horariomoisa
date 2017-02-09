@@ -4,14 +4,17 @@ body {
 h1{
   font-size: 40px;
   font-family: arial;
+  margin-right:auto; margin-left:auto;
 }
 h2{
   font-size: 35px;
   font-family: arial;
+  margin-right:auto; margin-left:auto;
 }
 h3{
   font-family: arial;
    font-size: 25px;
+  margin-right:auto; margin-left:auto;
 }
 table {
   border-collapse: collapse;
