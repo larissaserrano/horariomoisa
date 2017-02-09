@@ -5,10 +5,10 @@ layout: default
 <h1> Horários IFPB- Campus Guarabira </h1>
 
 {% for curso in site.data.horarios.cursos %}
-	<h1>{{curso.nome}}</h1>    
+	<h2>{{curso.nome}}</h2>    
 
 {% for turma in curso.turmas %}
-	<h2>{{turma.nome}}</h2>   
+	<h3>{{turma.nome}}</h3>   
 
 	<table>
 		
