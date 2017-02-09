@@ -4,12 +4,12 @@ body {
 h1{
   font-size: 40px;
   font-family: Agent Orange;
-  margin-right:30%;margin-left:15%;
+  
 }
 h2{
   font-size: 35px;
   font-family: Agent Orange;
-  margin-right:30%;margin-left:15%;
+ 
 }
 h3{
   font-family: Agent Orange;
@@ -20,7 +20,7 @@ table {
   border-collapse: collapse;
   width: 160em;
   border: 1px solid #666;
-  margin-right:auto; margin-left:auto;
+  
 }
 thead {
   background: #ccc url(http://www.devfuria.com.br/html-css/tabelas/bar.gif) repeat-x left center;
