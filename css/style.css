@@ -4,6 +4,9 @@ body {
 h1{
   font-size: 25px;
 }
+h2{
+  font-size: 18px;
+}
 table {
   border-collapse: collapse;
   width: 50em;
