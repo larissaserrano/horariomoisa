@@ -28,9 +28,10 @@ h3{
   
 }
 table {
+  align: center;
   text-align: center;
   border-collapse: collapse;
-  max-width: 100%;
+  max-width: 120%;
   border: 0px solid #666;
   font-family:  Candara;
 }
