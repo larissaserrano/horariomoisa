@@ -8,7 +8,7 @@ layout: default
 		var i, davez;
 		for( i = 0; i < classes.length; i++){
 			davez = classes[i];
-			if (davez.style.display == "none"){
+			if (davez.style.display != "none"){
 				document.getElementById(davez.id).style.display = "none";
 			}
 		}
@@ -28,7 +28,7 @@ layout: default
 </div>
 
 {% for profx in site.data.aux.professores %}
-	<div class= "profy" id="{{profx}}" style="visibility: hidden">
+	<div class= "profy" id="{{profx}}" style="display: none">
 	<h1> {{profx}} </h1>
 
 
