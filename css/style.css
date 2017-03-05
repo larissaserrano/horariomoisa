@@ -28,10 +28,10 @@ h3{
   
 }
 table {
-  left: 50%;
+  
   text-align: center;
   border-collapse: collapse;
-  max-width: 120%;
+  max-width: 140%;
   border: 0px solid #666;
   font-family:  Candara;
 }
