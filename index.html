@@ -4,29 +4,33 @@ layout: default
 
 <h1 class = "centraliza"> Horários </h1>
 
-{% for curso in site.data.horarios.cursos %}
-	<h2 class = "centraliza">{{curso.nome}}</h2>    
-	<p  class = "centro"> Coordenador: João Matheus Carlos de Almeida  / Telefone: (83)9 9687-9936 / Email: coordjoaomatheus@gmail.com </p>
-{% for turma in curso.turmas %}
-	<h3 class = "centraliza">{{turma.nome}}</h3>   
+{% for professorx in site.data.aux.professores %}
 
-	<table>
-		
-  	<tr>
-	  {% for coluna in turma.colunas %}
-	  	<th>{{coluna}}</th> 
+
+	{% for curso in site.data.horarios.cursos %}
+		<h2 class = "centraliza">{{curso.nome}}</h2>    
+		<p  class = "centro"> Coordenador: João Matheus Carlos de Almeida  / Telefone: (83)9 9687-9936 / Email: coordjoaomatheus@gmail.com </p>
+	{% for turma in curso.turmas %}
+		<h3 class = "centraliza">{{turma.nome}}</h3>   
+
+		<table>
+
+		<tr>
+		  {% for coluna in turma.colunas %}
+			<th>{{coluna}}</th> 
+		  {% endfor %}
+			</tr>
+	   {% for linha in turma.linhas %}
+		 <tr>
+			 <td>{{linha.horario}}</td>
+			 {% for aula in linha.aulas %}
+			 <td>{{aula.disciplina}}<br/>{{aula.professor}}</td>
+			 {% endfor %}
+			</tr>
+			 {% endfor %}
+			</table>
+
 	  {% endfor %}
-		</tr>
-   {% for linha in turma.linhas %}
-	 <tr>
-		 <td>{{linha.horario}}</td>
-		 {% for aula in linha.aulas %}
-		 <td>{{aula.disciplina}}<br/>{{aula.professor}}</td>
-		 {% endfor %}
-		</tr>
-		 {% endfor %}
-		</table>
-
-  {% endfor %}
-  {% endfor %}
+	  {% endfor %}
+	  {% endfor %}
 
