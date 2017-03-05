@@ -31,7 +31,7 @@ table {
   
   text-align: center;
   border-collapse: collapse;
-  max-width: 140%;
+  max-width: 140em;
   border: 0px solid #666;
   font-family:  Candara;
 }
