@@ -69,6 +69,7 @@ th, td {
     margin-left: 40%;
 }
 .dropbtn {
+    
     background-color: #4CAF50;
     color: white;
     padding: 16px;
@@ -93,6 +94,7 @@ th, td {
 .dropdown {
     position: relative;
     display: inline-block;
+    margin-left: 50%;
 }
 
 .dropdown-content {
